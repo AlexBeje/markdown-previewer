@@ -38,7 +38,6 @@ function App() {
 
   return (
     <div className="App d-flex vh-100 ">
-      <div>Hola</div>
       <Editor textArea={textAreaValue} changeTextArea={changeTextAreaHandler} />
       {/* <textarea
         value={textAreaValue}
