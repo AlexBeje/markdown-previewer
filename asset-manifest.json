@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://alexbeje.github.io/markdown-previewer/static/css/main.a529e512.chunk.css",
-    "main.js": "https://alexbeje.github.io/markdown-previewer/static/js/main.80e00909.chunk.js",
-    "main.js.map": "https://alexbeje.github.io/markdown-previewer/static/js/main.80e00909.chunk.js.map",
+    "main.js": "https://alexbeje.github.io/markdown-previewer/static/js/main.e4f8682c.chunk.js",
+    "main.js.map": "https://alexbeje.github.io/markdown-previewer/static/js/main.e4f8682c.chunk.js.map",
     "runtime-main.js": "https://alexbeje.github.io/markdown-previewer/static/js/runtime-main.f1c9d426.js",
     "runtime-main.js.map": "https://alexbeje.github.io/markdown-previewer/static/js/runtime-main.f1c9d426.js.map",
     "static/css/2.95f25948.chunk.css": "https://alexbeje.github.io/markdown-previewer/static/css/2.95f25948.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.95f25948.chunk.css",
     "static/js/2.2f313e94.chunk.js",
     "static/css/main.a529e512.chunk.css",
-    "static/js/main.80e00909.chunk.js"
+    "static/js/main.e4f8682c.chunk.js"
   ]
 }
