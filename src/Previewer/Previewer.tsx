@@ -1,7 +1,9 @@
-import React from "react";
+import React, { ReactElement } from "react";
 
-function previewer() {
-  return <div className="w-50">Previewer</div>;
+interface Props {
+  textArea: string;
 }
 
-export default previewer;
+export default function Previewer({ textArea }: Props): ReactElement {
+  return <p className="w-50 p-5">{textArea}</p>;
+}
