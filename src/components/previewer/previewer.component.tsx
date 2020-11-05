@@ -3,19 +3,21 @@ import React, { ReactElement } from "react";
 import marked from "marked";
 import DOMPurify from "dompurify";
 
-import "./Previewer.scss";
+import "./previewer.styles.scss";
 
-interface Props {
+type PreviewProps = {
   textArea: string;
-}
+};
 
-export default function Editor({ textArea }: Props): ReactElement {
+function Preview({ textArea }: PreviewProps): ReactElement {
   const clean = DOMPurify.sanitize(marked(textArea));
 
   return (
     <div
-      className="Previewer w-50 p-5 overflow-auto"
+      className="w-50 p-5 overflow-auto"
       dangerouslySetInnerHTML={{ __html: clean }}
     />
   );
 }
+
+export default Preview;
