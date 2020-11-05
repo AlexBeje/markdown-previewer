@@ -1,5 +1,7 @@
 import React, { ReactElement } from "react";
 
+import "./Editor.scss";
+
 interface Props {
   textArea: string;
   changeTextArea: any;
@@ -10,6 +12,10 @@ export default function Editor({
   changeTextArea,
 }: Props): ReactElement {
   return (
-    <textarea className="w-50 p-5" value={textArea} onChange={changeTextArea} />
+    <textarea
+      className="Editor w-50 p-5"
+      value={textArea}
+      onChange={changeTextArea}
+    />
   );
 }

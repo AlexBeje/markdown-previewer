@@ -41,7 +41,13 @@
     ]
   },
   "devDependencies": {
+    "@types/dompurify": "^2.0.4",
+    "@types/marked": "^1.1.0",
     "bootstrap": "^4.5.3",
+    "dompurify": "^2.2.2",
+    "marked": "^1.2.3",
+    "raw-loader": "^4.0.2",
+    "raw.macro": "^0.4.2",
     "sass": "^1.29.0"
   }
 }
