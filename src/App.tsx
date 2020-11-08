@@ -37,14 +37,8 @@ function App() {
   };
 
   return (
-    <div className="App d-flex vh-100 ">
+    <div className="App d-flex vh-100">
       <Editor textArea={textAreaValue} changeTextArea={changeTextAreaHandler} />
-      {/* <textarea
-        value={textAreaValue}
-        onChange={(ev: React.ChangeEvent<HTMLTextAreaElement>): void =>
-          setTextAreaValue(ev.target.value)
-        }
-      /> */}
       <Previewer textArea={textAreaValue} />
     </div>
   );

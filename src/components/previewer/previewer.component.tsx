@@ -14,7 +14,7 @@ function Preview({ textArea }: PreviewProps): ReactElement {
 
   return (
     <div
-      className="w-50 p-5 overflow-auto"
+      className="previewer w-50 p-5 overflow-auto"
       dangerouslySetInnerHTML={{ __html: clean }}
     />
   );
