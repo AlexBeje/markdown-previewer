@@ -1,3 +1,14 @@
 .previewer {
   background: var(--color-primary);
+  height: 50%;
+  overflow: auto;
+  padding: 3em;
+}
+
+@media only screen and (min-width: 700px) {
+  .previewer {
+    width: 50%;
+    height: 100%;
+    padding: 4em;
+  }
 }

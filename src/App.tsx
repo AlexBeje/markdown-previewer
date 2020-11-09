@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <div className="App d-flex vh-100">
+    <div className="app">
       <Editor textArea={textAreaValue} changeTextArea={changeTextAreaHandler} />
       <Previewer textArea={textAreaValue} />
     </div>

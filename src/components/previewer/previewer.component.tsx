@@ -13,10 +13,7 @@ function Preview({ textArea }: PreviewProps): ReactElement {
   const clean = DOMPurify.sanitize(marked(textArea));
 
   return (
-    <div
-      className="previewer w-50 p-5 overflow-auto"
-      dangerouslySetInnerHTML={{ __html: clean }}
-    />
+    <div className="previewer" dangerouslySetInnerHTML={{ __html: clean }} />
   );
 }
 

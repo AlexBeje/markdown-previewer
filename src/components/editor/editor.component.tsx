@@ -9,11 +9,7 @@ type EditorProps = {
 
 function Editor({ textArea, changeTextArea }: EditorProps): ReactElement {
   return (
-    <textarea
-      className="editor w-50 p-5"
-      value={textArea}
-      onChange={changeTextArea}
-    />
+    <textarea className="editor" value={textArea} onChange={changeTextArea} />
   );
 }
 
