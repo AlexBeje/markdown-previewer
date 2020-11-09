@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "https://alexbeje.github.io/markdown-previewer/static/css/main.025e6bba.chunk.css",
-    "main.js": "https://alexbeje.github.io/markdown-previewer/static/js/main.6f9a7cf8.chunk.js",
-    "main.js.map": "https://alexbeje.github.io/markdown-previewer/static/js/main.6f9a7cf8.chunk.js.map",
+    "main.css": "https://alexbeje.github.io/markdown-previewer/static/css/main.078e3dbe.chunk.css",
+    "main.js": "https://alexbeje.github.io/markdown-previewer/static/js/main.c60b45a2.chunk.js",
+    "main.js.map": "https://alexbeje.github.io/markdown-previewer/static/js/main.c60b45a2.chunk.js.map",
     "runtime-main.js": "https://alexbeje.github.io/markdown-previewer/static/js/runtime-main.f1c9d426.js",
     "runtime-main.js.map": "https://alexbeje.github.io/markdown-previewer/static/js/runtime-main.f1c9d426.js.map",
     "static/css/2.95f25948.chunk.css": "https://alexbeje.github.io/markdown-previewer/static/css/2.95f25948.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.86c07620.chunk.js.map": "https://alexbeje.github.io/markdown-previewer/static/js/3.86c07620.chunk.js.map",
     "index.html": "https://alexbeje.github.io/markdown-previewer/index.html",
     "static/css/2.95f25948.chunk.css.map": "https://alexbeje.github.io/markdown-previewer/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.025e6bba.chunk.css.map": "https://alexbeje.github.io/markdown-previewer/static/css/main.025e6bba.chunk.css.map",
+    "static/css/main.078e3dbe.chunk.css.map": "https://alexbeje.github.io/markdown-previewer/static/css/main.078e3dbe.chunk.css.map",
     "static/js/2.2f313e94.chunk.js.LICENSE.txt": "https://alexbeje.github.io/markdown-previewer/static/js/2.2f313e94.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f1c9d426.js",
     "static/css/2.95f25948.chunk.css",
     "static/js/2.2f313e94.chunk.js",
-    "static/css/main.025e6bba.chunk.css",
-    "static/js/main.6f9a7cf8.chunk.js"
+    "static/css/main.078e3dbe.chunk.css",
+    "static/js/main.c60b45a2.chunk.js"
   ]
 }
